@@ -6,8 +6,8 @@ import csv
 from SpannerTestboard import SpannerTestboard
 from ut61e_py.UT61E import UT61E
 
-testboard = SpannerTestboard("xenonEthDev3")
-testboard_dmm = SpannerTestboard("dev4")
+testboard = SpannerTestboard("batteryTestboard")
+testboard_dmm = SpannerTestboard("dmmTestboard")
 DMM = UT61E(testboard_dmm)
 INA219 = SpannerTestboard.INA219
 
