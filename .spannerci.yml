@@ -1,0 +1,2 @@
+testing:
+  script: 'pytest  --verbose -s "test_battery.py"'
